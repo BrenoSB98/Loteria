@@ -1,6 +1,6 @@
 package application;
 
-import model.entities.Sorteio;
+import entities.Sorteio;
 
 public class MainLoteria {
 
@@ -9,15 +9,15 @@ public class MainLoteria {
             System.out.print(numero + " ");
         }
         System.out.println();
-        for (Integer numero : Loterias.megaSena()) {
+        for (Integer numero : Sorteio.megaSena()) {
             System.out.print(numero + " ");
         }
         System.out.println();
-        for (Integer numero : Loterias.lotoFacil()) {
+        for (Integer numero : Sorteio.lotoFacil()) {
             System.out.print(numero + " ");
         }
         System.out.println();
-        for (Integer numero : Loterias.quina()) {
+        for (Integer numero : Sorteio.quina()) {
             System.out.print(numero + " ");
         }
     }
