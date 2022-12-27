@@ -1,5 +1,5 @@
 # Loteria
-É um simulador de resultados da Loterias brasileira.
+É um simulador de resultados das Loterias brasileira.
 
 
 </div>
